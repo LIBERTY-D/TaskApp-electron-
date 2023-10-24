@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TaskApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+    * {
+    box-sizing: border-box;
+
+  }
+  body{
+    background-color: rgb(238, 234, 241);
+  }
+  /* main{
+    position: relative;
+  } */
+  #create{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 100%; */
+   border: none;
+    color: "white ";
+    cursor: pointer;
+    background-color: lightgreen;
+  }
+  main h2{
+    text-align: center;
+    color: #ccc;
+  }
+
+#my-list{
+    list-style: none;
+    margin: 0;
+    
+  }
+  #my-list li{
+    padding: 1px 0.5px;
+    font-size: 1.2rem;
+    list-style-type: none;
+    color: #ccc;
+    font-style: italic;
+  }
+  .checked{
+    text-decoration: line-through;
+    color: crimson;
+
+
+  }
+  #my-list li:hover{
+    cursor: pointer;
+  }
+   </style>
+</head>
+<body>
+  <main>
+    <h2>My Task</h2>
+
+    <ul id="my-list">
+     <!-- <li>Hit the gym</li>
+     <li>Pay bills</li>
+     <li>Meet George</li>
+     <li>Buy eggs</li>
+     <li>Read a book</li>
+     <li>Organize office</li> -->
+   </ul>
+    
+     <button id="create"> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></button>
+    
+  </main>
+<script src="./preload.js"  >
+
+</script>
+</body>
+</html>
