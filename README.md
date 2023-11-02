@@ -2,7 +2,7 @@
 
 TaskApp is a simple and intuitive task management application to help you stay organized and productive.
 
-![Screenshot!](./assets/Screenshot 2023-11-02 at 01.49.34.png)
+![Screenshot!]("./assets/app.png")
 
 ## Features
 
@@ -51,5 +51,3 @@ To run the project locally, use the following command:
 npm start
 
 
-
-[def]: screenshot.png
