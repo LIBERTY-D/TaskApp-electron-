@@ -2,7 +2,7 @@
 
 TaskApp is a simple and intuitive task management application to help you stay organized and productive.
 
-![Screenshot!]("./assets/app.png")
+![Screenshot](./assets/app.png)
 
 ## Features
 
